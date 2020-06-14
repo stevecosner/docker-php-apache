@@ -1,0 +1,15 @@
+---
+
+version: "2"
+
+
+
+services:
+
+  php-landing1:
+
+    build: .
+
+    ports:
+
+      - "8002:80"
